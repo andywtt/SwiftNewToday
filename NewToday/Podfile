@@ -6,5 +6,6 @@ target 'NewToday' do
 
 pod 'Alamofire'
 pod 'SwiftyJSON'
+pod 'SnapKit'
 
 end

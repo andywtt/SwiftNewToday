@@ -16,6 +16,15 @@
 		A10DB619240D0BDA0095F2E5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB618240D0BDA0095F2E5 /* Common.swift */; };
 		A10DB61B240D0FD60095F2E5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A10DB61A240D0FD60095F2E5 /* Podfile */; };
 		A10DB61E240D11090095F2E5 /* HttpDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB61D240D11090095F2E5 /* HttpDatas.swift */; };
+		A12F67E7240D5519002C1661 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67E6240D5519002C1661 /* TabBarController.swift */; };
+		A12F67E9240D58B1002C1661 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67E8240D58B1002C1661 /* BaseController.swift */; };
+		A12F67EB240D58C4002C1661 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67EA240D58C4002C1661 /* HomeController.swift */; };
+		A12F67ED240D58D6002C1661 /* HotRankController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67EC240D58D6002C1661 /* HotRankController.swift */; };
+		A12F67EF240D58E6002C1661 /* XiguaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67EE240D58E6002C1661 /* XiguaController.swift */; };
+		A12F67F1240D58F6002C1661 /* MeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67F0240D58F6002C1661 /* MeController.swift */; };
+		A12F67F3240D590F002C1661 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67F2240D590F002C1661 /* PlayerController.swift */; };
+		A12F67F9240D6566002C1661 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67F8240D6566002C1661 /* LoginController.swift */; };
+		A12F67FB240D671C002C1661 /* MoreLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67FA240D671C002C1661 /* MoreLoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +40,16 @@
 		A10DB618240D0BDA0095F2E5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A10DB61A240D0FD60095F2E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10DB61D240D11090095F2E5 /* HttpDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDatas.swift; sourceTree = "<group>"; };
+		A12F67E6240D5519002C1661 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		A12F67E8240D58B1002C1661 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = NewToday/Classes/Main/BaseController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67EA240D58C4002C1661 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = NewToday/Classes/Main/HomeController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67EC240D58D6002C1661 /* HotRankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotRankController.swift; path = NewToday/Classes/Main/HotRankController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67EE240D58E6002C1661 /* XiguaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XiguaController.swift; path = NewToday/Classes/Main/XiguaController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67F0240D58F6002C1661 /* MeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeController.swift; path = NewToday/Classes/Main/MeController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67F2240D590F002C1661 /* PlayerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlayerController.swift; path = NewToday/Classes/Main/PlayerController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67F8240D6566002C1661 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A12F67FA240D671C002C1661 /* MoreLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLoginController.swift; sourceTree = "<group>"; };
+		A12F67FC240D684B002C1661 /* NewToday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewToday-Bridging-Header.h"; sourceTree = "<group>"; };
 		FB2CACBF977D4BB04020C199 /* Pods-NewToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToday.release.xcconfig"; path = "Target Support Files/Pods-NewToday/Pods-NewToday.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +112,7 @@
 		A10DB601240D0A900095F2E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67F4240D6534002C1661 /* Login */,
 				A10DB61C240D10E60095F2E5 /* 网络封装 */,
 				A10DB612240D0A900095F2E5 /* Main */,
 				A10DB617240D0BB20095F2E5 /* 宏文件 */,
@@ -125,6 +145,8 @@
 		A10DB604240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67E8240D58B1002C1661 /* BaseController.swift */,
+				A12F67EA240D58C4002C1661 /* HomeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -156,6 +178,7 @@
 		A10DB608240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67EC240D58D6002C1661 /* HotRankController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -187,6 +210,7 @@
 		A10DB60C240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67EE240D58E6002C1661 /* XiguaController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -218,6 +242,7 @@
 		A10DB610240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67F0240D58F6002C1661 /* MeController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				A10DB5ED240D09730095F2E5 /* AppDelegate.swift */,
+				A12F67E6240D5519002C1661 /* TabBarController.swift */,
 				A10DB5F1240D09730095F2E5 /* ViewController.swift */,
 				A10DB5F3240D09730095F2E5 /* Main.storyboard */,
 				A10DB5F6240D09750095F2E5 /* Assets.xcassets */,
@@ -262,6 +288,7 @@
 		A10DB615240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A12F67F2240D590F002C1661 /* PlayerController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -277,6 +304,7 @@
 			isa = PBXGroup;
 			children = (
 				A10DB618240D0BDA0095F2E5 /* Common.swift */,
+				A12F67FC240D684B002C1661 /* NewToday-Bridging-Header.h */,
 			);
 			path = "宏文件";
 			sourceTree = "<group>";
@@ -287,6 +315,39 @@
 				A10DB61D240D11090095F2E5 /* HttpDatas.swift */,
 			);
 			path = "网络封装";
+			sourceTree = "<group>";
+		};
+		A12F67F4240D6534002C1661 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A12F67F7240D6553002C1661 /* Models */,
+				A12F67F6240D654A002C1661 /* Controllers */,
+				A12F67F5240D6544002C1661 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A12F67F5240D6544002C1661 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A12F67F6240D654A002C1661 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A12F67F8240D6566002C1661 /* LoginController.swift */,
+				A12F67FA240D671C002C1661 /* MoreLoginController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A12F67F7240D6553002C1661 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,6 +384,7 @@
 				TargetAttributes = {
 					A10DB5E9240D09730095F2E5 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -406,9 +468,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10DB619240D0BDA0095F2E5 /* Common.swift in Sources */,
+				A12F67F9240D6566002C1661 /* LoginController.swift in Sources */,
 				A10DB5F2240D09730095F2E5 /* ViewController.swift in Sources */,
+				A12F67EB240D58C4002C1661 /* HomeController.swift in Sources */,
+				A12F67FB240D671C002C1661 /* MoreLoginController.swift in Sources */,
 				A10DB5EE240D09730095F2E5 /* AppDelegate.swift in Sources */,
+				A12F67E7240D5519002C1661 /* TabBarController.swift in Sources */,
+				A12F67ED240D58D6002C1661 /* HotRankController.swift in Sources */,
+				A12F67E9240D58B1002C1661 /* BaseController.swift in Sources */,
+				A12F67EF240D58E6002C1661 /* XiguaController.swift in Sources */,
 				A10DB61E240D11090095F2E5 /* HttpDatas.swift in Sources */,
+				A12F67F3240D590F002C1661 /* PlayerController.swift in Sources */,
+				A12F67F1240D58F6002C1661 /* MeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +624,7 @@
 			baseConfigurationReference = 8BA0CDAC3D4A132310E92695 /* Pods-NewToday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HS2A6FX5P;
 				INFOPLIST_FILE = NewToday/Classes/Main/Info.plist;
@@ -562,6 +634,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flsmart.app.NewToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewToday/Classes/宏文件/NewToday-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,6 +646,7 @@
 			baseConfigurationReference = FB2CACBF977D4BB04020C199 /* Pods-NewToday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5HS2A6FX5P;
 				INFOPLIST_FILE = NewToday/Classes/Main/Info.plist;
@@ -581,6 +656,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flsmart.app.NewToday;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewToday/Classes/宏文件/NewToday-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
