@@ -27,6 +27,11 @@ class LoginController: BaseController {
         view.addSubview(agreeMobile)
         view.addSubview(otherLabel)
         
+        
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
         configContraint()
     }
     
@@ -87,11 +92,7 @@ class LoginController: BaseController {
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.navigationController?.navigationBar.isHidden = true
-    }
-    
+    // MARK: 控件元素
     private lazy var cancelButton: UIButton = {
         let btn = UIButton(type: .custom)
         btn.setImage(UIImage(named: "close_sdk_register"), for: .normal)
@@ -113,8 +114,6 @@ class LoginController: BaseController {
         lab.font = customFont(font: 15)
         return lab
     }()
-    
-    
     
     private lazy var chinaMobileLabel: UILabel = {
         let label = UILabel()
