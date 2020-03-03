@@ -7,5 +7,8 @@ target 'NewToday' do
 pod 'Alamofire'
 pod 'SwiftyJSON'
 pod 'SnapKit'
+pod 'ReachabilitySwift'
+pod 'ReachabilitySwift'
+pod 'YYText'
 
 end

@@ -16,6 +16,7 @@
 		A10DB619240D0BDA0095F2E5 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB618240D0BDA0095F2E5 /* Common.swift */; };
 		A10DB61B240D0FD60095F2E5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A10DB61A240D0FD60095F2E5 /* Podfile */; };
 		A10DB61E240D11090095F2E5 /* HttpDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB61D240D11090095F2E5 /* HttpDatas.swift */; };
+		A10DB621240DF9580095F2E5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10DB620240DF9580095F2E5 /* BaseNavigationController.swift */; };
 		A12F67E7240D5519002C1661 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67E6240D5519002C1661 /* TabBarController.swift */; };
 		A12F67E9240D58B1002C1661 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67E8240D58B1002C1661 /* BaseController.swift */; };
 		A12F67EB240D58C4002C1661 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67EA240D58C4002C1661 /* HomeController.swift */; };
@@ -25,12 +26,15 @@
 		A12F67F3240D590F002C1661 /* PlayerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67F2240D590F002C1661 /* PlayerController.swift */; };
 		A12F67F9240D6566002C1661 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67F8240D6566002C1661 /* LoginController.swift */; };
 		A12F67FB240D671C002C1661 /* MoreLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12F67FA240D671C002C1661 /* MoreLoginController.swift */; };
+		A1A46381240E4F8400097354 /* WLNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A46380240E4F8400097354 /* WLNavigationBar.swift */; };
+		A1A46385240E622100097354 /* WebController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A46384240E622100097354 /* WebController.swift */; };
+		A1A46387240E640B00097354 /* PrivacySettingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A46386240E640B00097354 /* PrivacySettingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		88C72869549E8ED9BD9B24BB /* Pods_NewToday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewToday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BA0CDAC3D4A132310E92695 /* Pods-NewToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToday.debug.xcconfig"; path = "Target Support Files/Pods-NewToday/Pods-NewToday.debug.xcconfig"; sourceTree = "<group>"; };
-		A10DB5EA240D09730095F2E5 /* NewToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A10DB5EA240D09730095F2E5 /* 今日头个条.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "今日头个条.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10DB5ED240D09730095F2E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A10DB5F1240D09730095F2E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A10DB5F4240D09730095F2E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,8 +44,9 @@
 		A10DB618240D0BDA0095F2E5 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		A10DB61A240D0FD60095F2E5 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A10DB61D240D11090095F2E5 /* HttpDatas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpDatas.swift; sourceTree = "<group>"; };
+		A10DB620240DF9580095F2E5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		A12F67E6240D5519002C1661 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
-		A12F67E8240D58B1002C1661 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = NewToday/Classes/Main/BaseController.swift; sourceTree = SOURCE_ROOT; };
+		A12F67E8240D58B1002C1661 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseController.swift; path = NewToday/Classes/Base/Controllers/BaseController.swift; sourceTree = SOURCE_ROOT; };
 		A12F67EA240D58C4002C1661 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeController.swift; path = NewToday/Classes/Main/HomeController.swift; sourceTree = SOURCE_ROOT; };
 		A12F67EC240D58D6002C1661 /* HotRankController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HotRankController.swift; path = NewToday/Classes/Main/HotRankController.swift; sourceTree = SOURCE_ROOT; };
 		A12F67EE240D58E6002C1661 /* XiguaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XiguaController.swift; path = NewToday/Classes/Main/XiguaController.swift; sourceTree = SOURCE_ROOT; };
@@ -50,6 +55,9 @@
 		A12F67F8240D6566002C1661 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		A12F67FA240D671C002C1661 /* MoreLoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLoginController.swift; sourceTree = "<group>"; };
 		A12F67FC240D684B002C1661 /* NewToday-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewToday-Bridging-Header.h"; sourceTree = "<group>"; };
+		A1A46380240E4F8400097354 /* WLNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WLNavigationBar.swift; sourceTree = "<group>"; };
+		A1A46384240E622100097354 /* WebController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebController.swift; sourceTree = "<group>"; };
+		A1A46386240E640B00097354 /* PrivacySettingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacySettingsController.swift; sourceTree = "<group>"; };
 		FB2CACBF977D4BB04020C199 /* Pods-NewToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewToday.release.xcconfig"; path = "Target Support Files/Pods-NewToday/Pods-NewToday.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +104,7 @@
 		A10DB5EB240D09730095F2E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A10DB5EA240D09730095F2E5 /* NewToday.app */,
+				A10DB5EA240D09730095F2E5 /* 今日头个条.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,15 +120,17 @@
 		A10DB601240D0A900095F2E5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A12F67F4240D6534002C1661 /* Login */,
-				A10DB61C240D10E60095F2E5 /* 网络封装 */,
+				A10DB622240DFF1A0095F2E5 /* Tools */,
+				A10DB61F240DF9300095F2E5 /* Base */,
 				A10DB612240D0A900095F2E5 /* Main */,
+				A10DB61C240D10E60095F2E5 /* 网络封装 */,
 				A10DB617240D0BB20095F2E5 /* 宏文件 */,
+				A12F67F4240D6534002C1661 /* Login */,
 				A10DB602240D0A900095F2E5 /* Home */,
-				A10DB606240D0A900095F2E5 /* HotRank */,
 				A10DB60A240D0A900095F2E5 /* Xigua */,
-				A10DB60E240D0A900095F2E5 /* Me */,
+				A10DB606240D0A900095F2E5 /* HotRank */,
 				A10DB613240D0A900095F2E5 /* Player */,
+				A10DB60E240D0A900095F2E5 /* Me */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -145,7 +155,6 @@
 		A10DB604240D0A900095F2E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				A12F67E8240D58B1002C1661 /* BaseController.swift */,
 				A12F67EA240D58C4002C1661 /* HomeController.swift */,
 			);
 			path = Controllers;
@@ -243,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				A12F67F0240D58F6002C1661 /* MeController.swift */,
+				A1A46386240E640B00097354 /* PrivacySettingsController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -317,6 +327,48 @@
 			path = "网络封装";
 			sourceTree = "<group>";
 		};
+		A10DB61F240DF9300095F2E5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A1112F73240E4A4B00456F4D /* Models */,
+				A1112F72240E4A4600456F4D /* Views */,
+				A1112F71240E4A3D00456F4D /* Controllers */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A10DB622240DFF1A0095F2E5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		A1112F71240E4A3D00456F4D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A12F67E8240D58B1002C1661 /* BaseController.swift */,
+				A10DB620240DF9580095F2E5 /* BaseNavigationController.swift */,
+				A1A46384240E622100097354 /* WebController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A1112F72240E4A4600456F4D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1A46380240E4F8400097354 /* WLNavigationBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A1112F73240E4A4B00456F4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A12F67F4240D6534002C1661 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -369,7 +421,7 @@
 			);
 			name = NewToday;
 			productName = NewToday;
-			productReference = A10DB5EA240D09730095F2E5 /* NewToday.app */;
+			productReference = A10DB5EA240D09730095F2E5 /* 今日头个条.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -475,10 +527,14 @@
 				A10DB5EE240D09730095F2E5 /* AppDelegate.swift in Sources */,
 				A12F67E7240D5519002C1661 /* TabBarController.swift in Sources */,
 				A12F67ED240D58D6002C1661 /* HotRankController.swift in Sources */,
+				A1A46385240E622100097354 /* WebController.swift in Sources */,
+				A1A46381240E4F8400097354 /* WLNavigationBar.swift in Sources */,
+				A10DB621240DF9580095F2E5 /* BaseNavigationController.swift in Sources */,
 				A12F67E9240D58B1002C1661 /* BaseController.swift in Sources */,
 				A12F67EF240D58E6002C1661 /* XiguaController.swift in Sources */,
 				A10DB61E240D11090095F2E5 /* HttpDatas.swift in Sources */,
 				A12F67F3240D590F002C1661 /* PlayerController.swift in Sources */,
+				A1A46387240E640B00097354 /* PrivacySettingsController.swift in Sources */,
 				A12F67F1240D58F6002C1661 /* MeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -633,7 +689,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flsmart.app.NewToday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "今日头个条";
 				SWIFT_OBJC_BRIDGING_HEADER = "NewToday/Classes/宏文件/NewToday-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -655,7 +711,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flsmart.app.NewToday;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "今日头个条";
 				SWIFT_OBJC_BRIDGING_HEADER = "NewToday/Classes/宏文件/NewToday-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

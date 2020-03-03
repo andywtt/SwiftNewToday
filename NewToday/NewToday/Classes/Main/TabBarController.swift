@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class TabBarController: UITabBarController {
     
@@ -14,11 +15,12 @@ class TabBarController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
+        configTabBarTextColorFont()
         addControllers()
+        
     }
+    
     
     /// 添加子控制器
     func addControllers() {
@@ -27,6 +29,8 @@ class TabBarController: UITabBarController {
         addChildControllers(HotRankController(), title: "热榜", image: "huoshan_tabbar", selectImg: "huoshan_tabbar_press")
         addChildControllers(PlayerController(), title: "放映厅", image: "long_video_tabbar", selectImg: "long_video_tabbar_press")
         addChildControllers(MeController(), title: "未登录", image: "no_login_tabbar", selectImg: "no_login_tabbar_press")
+        
+        
     }
 
     
@@ -43,20 +47,36 @@ class TabBarController: UITabBarController {
         childController.tabBarItem.image = UIImage(named: image)?.withRenderingMode(.alwaysOriginal)
         // selected image
         childController.tabBarItem.selectedImage = UIImage(named: selectImg)?.withRenderingMode(.alwaysOriginal)
-        // set select text color
-        UITabBarItem.appearance()
-            .setTitleTextAttributes([NSAttributedString.Key.foregroundColor : RGBColor(r: 245, g: 90, b: 93)], for: .selected)
-        // set navigationController
         
-        let childNav = UINavigationController()
+        // set navigationController
+        let childNav = BaseNavigationController()
         childNav.addChild(childController)
         addChild(childNav)
         
     }
     
+    /// 配置tabbar的字体颜色与大小
+    private func configTabBarTextColorFont() {
+        // selected text color
+        tabBar.tintColor = RGBColor(r: 245, g: 90, b: 93)
+        // normal text color
+        tabBar.unselectedItemTintColor = UIColor.darkGray
+        // Helvetica-Ligh   Helvetica
+        // set font
+        let font = UIFont(name: "Helvetica", size: 10)
+        UITabBarItem.appearance()
+            .setTitleTextAttributes([NSAttributedString.Key.font : font!], for: .selected)
+        UITabBarItem.appearance()
+        .setTitleTextAttributes([NSAttributedString.Key.font : font!], for: .normal)
+    }
+    
     override func tabBar(_ tabBar: UITabBar, didSelect item: UITabBarItem) {
         if let index = tabBar.items?.firstIndex(of: item) {
             if indexFlag != index {
+                //短振动，普通短震，3D Touch 中 Peek 震动反馈
+                let soundShort = SystemSoundID(1519)
+                //执行震动
+                AudioServicesPlaySystemSound(soundShort)
                 animationWithIndex(index: index)
             }
         }
@@ -82,7 +102,7 @@ class TabBarController: UITabBarController {
         pulse.duration = 0.1 // 持续的时间
         pulse.repeatCount = 1 // 持续的次数
 //        pulse.autoreverses = true //是否自动复位
-        pulse.fromValue = 0.7 // 开始缩小的倍数
+        pulse.fromValue = 0.8 // 开始缩小的倍数
         pulse.toValue = 1 // 结束放到的倍数
         arrViews[index].layer.add(pulse, forKey: nil)// 把动画添加到视图
         indexFlag = index
